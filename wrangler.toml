@@ -1,0 +1,20 @@
+name = "deploybot"
+main = "src/index.ts"
+compatibility_date = "2023-03-08"
+usage_model = "bundled"
+
+kv_namespaces = [
+   { binding = "DEPLOYABLE_SITES", id = "f76052f552e04bb8bd808cfe72dd489a", preview_id = "37e3580b49f54a5ba6515845e8b5e129" },
+]
+
+[env.dev]
+
+[env.production]
+
+
+# [secrets]
+# DISCORD_TOKEN
+# DISCORD_PUBLIC_KEY
+# DISCORD_APPLICATION_ID
+# DISCORD_TEST_GUILD_ID
+
